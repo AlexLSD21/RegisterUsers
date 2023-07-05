@@ -1,0 +1,63 @@
+
+body {
+    background-color:rgb(71, 71, 71);
+    margin: auto;
+    padding: auto;
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: 'JetBrains mono';
+    font-size: 4.3rem;
+}
+
+label {
+    font-size: 2.5rem;
+    font-family: 'JetBrains mono';
+    margin: auto;
+}
+
+section {
+    background-color: rgb(177, 177, 177);
+    margin: 3rem;
+    padding: 2rem;
+    border-radius: 1rem;
+    max-width: auto;
+}
+
+button {
+    color: azure;
+    background-color: rgb(133, 178, 181);
+    font-size: 2rem;
+    display: block;
+    margin: auto;
+}
+
+input {
+    background-color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-family: 'JetBrains Mono';
+    margin: auto;
+    max-width: fit-content;
+}
+
+table, th, td , h4{
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: rgb(75, 170, 253);
+    border-style: double;
+    max-width: auto;
+}
+th, td {
+    padding: 2rem;
+}
+
+table, h4 {
+    margin: 1rem auto;
+    padding: 2rem;
+    font-size: 1rem;
+    font-family: 'JetBrains Mono';
+    text-align: center;
+
+}
