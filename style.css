@@ -45,19 +45,27 @@ input {
 table, th, td , h4{
     border: 1px solid black;
     border-collapse: collapse;
-    background-color: rgb(75, 170, 253);
+    background-color: rgb(91, 122, 149);
     border-style: double;
     max-width: auto;
 }
 th, td {
-    padding: 2rem;
+    padding: 1rem;
 }
 
 table, h4 {
     margin: 1rem auto;
-    padding: 2rem;
+    padding: 1rem;
     font-size: 1rem;
     font-family: 'JetBrains Mono';
     text-align: center;
+
+}
+
+#total td{
+    background-color: rgb(167, 167, 167);
+    font-size: 1rem;
+    border: none;
+    margin: 3rem;
 
 }

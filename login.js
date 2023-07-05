@@ -1,6 +1,7 @@
 const updateUsername = document.querySelector("#username");
 const updatePassword = document.querySelector("#password");
 const displayNewUser = document.querySelector("#addUser");
+const showTotal = document.querySelector("#total");
 displayNewUser.innerHTML = "";
 
 let contador = 0;
@@ -31,17 +32,22 @@ function dameClick(){
         const tdNumber = document.createElement("td");
         const tdUser = document.createElement("td");
         const tdPass = document.createElement("td");
+        const total = document.createElement("td");
     
         tdNumber.textContent = index + 1;
         tdUser.textContent = user.username;
         tdPass.textContent = user.password;
+        total.textContent = users.length;
     
         tr.appendChild(tdNumber);
         tr.appendChild(tdUser);
         tr.appendChild(tdPass);
+        
     
         displayNewUser.appendChild(tr);
     });
+
+    showTotal.textContent = "TOTAL: " + contador;
 
     console.log(users)
 
